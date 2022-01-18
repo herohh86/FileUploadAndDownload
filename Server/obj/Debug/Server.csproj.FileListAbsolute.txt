@@ -1,0 +1,12 @@
+E:\Test\Summary\Summary\Server\bin\Server.dll.config
+E:\Test\Summary\Summary\Server\bin\Server.dll
+E:\Test\Summary\Summary\Server\bin\Server.pdb
+E:\Test\Summary\Summary\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+E:\Test\Summary\Summary\Server\obj\Debug\Server.dll
+E:\Test\Summary\Summary\Server\obj\Debug\Server.pdb
+F:\Summary\Server\bin\Server.dll.config
+F:\Summary\Server\bin\Server.dll
+F:\Summary\Server\bin\Server.pdb
+F:\Summary\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+F:\Summary\Server\obj\Debug\Server.dll
+F:\Summary\Server\obj\Debug\Server.pdb

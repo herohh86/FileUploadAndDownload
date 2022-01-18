@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>文件上传下载</title>
+    <script src="../../JavaScript/JQuery/jquery-2.1.0.js"></script>
+    <script src="../../JavaScript/GZip/base64js.min.js"></script>
+    <script src="../../JavaScript/GZip/pako_deflate.min.js"></script>
+    <script src="../../JavaScript/PC/File.js"></script>
+</head>
+<body>
+    <fieldset>
+        <legend>文件上传</legend>
+        <div>
+            <input type="file" id="filePicker" />
+        </div>
+        <fieldset>
+            <legend>如果是上传图片，那么在服务端生成缩略图并返回</legend>
+            <div style="margin-top:10px;">
+                <img id="selectedImage" alt="服务端生成并返回的缩略图" style="width:120px;height:120px" />
+            </div>
+        </fieldset>
+    </fieldset>
+    <fieldset>
+        <legend>大文件上传</legend>
+        <p>当上传的文件比较大，可以在前端分批读取并发送到服务端分批保存</p>
+        <div>
+            <input type="file" id="largeFilePicker" />
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>选择图片，在前端指定图片区域并截取上传(todo)</legend>
+        <!--canvas/formData-->
+        <!--前端剪切，后端剪切-->
+        <div>
+            <input type="file" id="imgPicker" accept="image/*" />
+        </div>
+        <div style="margin-top:10px;">
+            <img id="selectedImage" style="width:120px;height:120px" />
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>文件下载</legend>
+        <input type="button" id="downloadFileBtn" value="下载"/>
+    </fieldset>
+</body>
+</html>
